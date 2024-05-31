@@ -3,8 +3,6 @@ import os
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 from openxlab.model import download
-import os
-os.system("mim install mmcv-full")
 
 base_path = './test1_new'
 os.system(f'git clone https://code.openxlab.org.cn/xingchengdahai/test1.git {base_path}')
